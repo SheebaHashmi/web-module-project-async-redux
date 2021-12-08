@@ -1,5 +1,7 @@
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -39,6 +41,19 @@
 .container{
   display:flex;
   flex-direction: column;
-  border: 1px solid red;
-  margin: 6% 12%;
+  border-radius: 10px;
+  margin: 6% auto;
+  padding:2%;
+  width:50%;
+  background-color: white;
+  color: rgb(153, 146, 255);
+}
+h1{
+  margin-bottom: 3%;
+}
+.btn{
+  align-self: flex-end;
+  width:15%;
+  background-color: rgb(153, 146, 255);
+  color:white;
 }

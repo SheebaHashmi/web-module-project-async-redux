@@ -17,14 +17,14 @@ const Quote = (props) => {
             {
                 props.quote && 
                 <div className="quote-card">
-                    <h1>{props.quote.en}</h1>
-                    <h3>{props.quote.author}</h3>
+                    <h2>{props.quote.en}</h2>
+                    <h3>{props.quote.author? `- ${props.quote.author}`: ''}</h3>
                 </div>
             }
             {
                 props.error && <p className="error">{props.error}</p>
             }
-           <button className="btn" onClick = {handleClick}>...</button>
+           <button className="btn" onClick = {handleClick}>New quote</button>
            
         </div>
     )

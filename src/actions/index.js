@@ -11,6 +11,6 @@ export const getQuotes = () => dispatch => {
         dispatch({type:FETCH_QUOTES_SUCCESS,payload:res.data})
     })
     .catch(err =>{
-        dispatch({type:FETCH_QUOTES_FAILURE,payload:err})
+        dispatch({type:FETCH_QUOTES_FAILURE,payload:err.message})
     })
 }
