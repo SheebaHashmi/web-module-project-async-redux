@@ -10,7 +10,8 @@ const Quote = (props) => {
     }
     return(
         <div className="container">
-            <h1>Your quote of the day:</h1>
+            
+            <i class="bi bi-quote"></i>
             {
                 props.loading && <p>Loading.....</p>
             }

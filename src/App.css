@@ -46,14 +46,20 @@
   padding:2%;
   width:50%;
   background-color: white;
-  color: rgb(153, 146, 255);
+  color: rgb(134, 126, 251);
+  
 }
 h1{
   margin-bottom: 3%;
 }
+
 .btn{
   align-self: flex-end;
   width:15%;
-  background-color: rgb(153, 146, 255);
+  background-color: rgb(134, 126, 251);
   color:white;
+}
+i{
+  font-size: 2rem;
+  align-self: flex-start;
 }
