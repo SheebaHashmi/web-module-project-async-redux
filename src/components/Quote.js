@@ -11,22 +11,22 @@ const Quote = (props) => {
     return(
         <div className="container">
             
-            <i class="bi bi-quote"></i>
             {
                 props.loading && <p>Loading.....</p>
             }
             {
                 props.quote && 
                 <div className="quote-card">
+                    <i class="bi bi-quote"></i>
                     <h2>{props.quote.en}</h2>
                     <h3>{props.quote.author? `- ${props.quote.author}`: ''}</h3>
+                    
                 </div>
             }
             {
                 props.error && <p className="error">{props.error}</p>
             }
            <button className="btn" onClick = {handleClick}>New quote</button>
-           
         </div>
     )
 }

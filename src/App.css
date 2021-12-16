@@ -39,27 +39,37 @@
   }
 }
 .container{
+  background-color: white;
+  border-radius: 10px;
+}
+.quote-card{
   display:flex;
   flex-direction: column;
-  border-radius: 10px;
-  margin: 6% auto;
+  margin: 6%;
   padding:2%;
-  width:50%;
-  background-color: white;
   color: rgb(134, 126, 251);
-  
 }
-h1{
+h2{
   margin-bottom: 3%;
 }
 
 .btn{
   align-self: flex-end;
-  width:15%;
+  width:15% auto;
   background-color: rgb(134, 126, 251);
   color:white;
+  margin-bottom:2%;
 }
 i{
   font-size: 2rem;
   align-self: flex-start;
+}
+@media only screen and (max-width:600px) {
+  .container{
+   width:80%;
+  }
+  *{
+    font-size: 0.8rem;
+  }
+
 }
