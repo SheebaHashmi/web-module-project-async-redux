@@ -26,6 +26,7 @@ const Quote = (props) => {
             {
                 props.error && <p className="error">{props.error}</p>
             }
+            <button className="btn" onClick={handleClick}>New quote</button>
             <a className="twitter-share-button"
                 href={url}
                 target="_blank"
@@ -33,7 +34,6 @@ const Quote = (props) => {
                 <i className="bi bi-twitter"></i>
             </a>
 
-            <button className="btn" onClick={handleClick}>New quote</button>
         </div>
     )
 }

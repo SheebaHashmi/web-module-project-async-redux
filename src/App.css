@@ -64,6 +64,9 @@ i{
   font-size: 2rem;
   align-self: flex-start;
 }
+.bi-twitter{
+  margin-left: 2%;
+}
 @media only screen and (max-width:600px) {
   .container{
    width:80%;
